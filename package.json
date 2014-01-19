@@ -1,0 +1,24 @@
+{
+  "author": {
+    "name": "fish",
+    "email": "zhengxinlin@gmail.com",
+    "url": "https://github.com/fishbar"
+  },
+  "name": "weibo-spy",
+  "description": "weibo spy",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --coverage"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "urllib": "0.5.5",
+    "jsdom": "*",
+    "mongoskin": "*"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
