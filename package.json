@@ -9,7 +9,9 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test --coverage"
+    "test": "mocha test --coverage",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=0.8.0"
@@ -17,8 +19,10 @@
   "dependencies": {
     "urllib": "0.5.5",
     "jsdom": "*",
-    "mongoskin": "*"
+    "mongoskin": "*",
+    "snyk": "^1.190.0"
   },
   "devDependencies": {},
-  "optionalDependencies": {}
+  "optionalDependencies": {},
+  "snyk": true
 }
