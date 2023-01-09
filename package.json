@@ -15,7 +15,7 @@
     "node": ">=0.8.0"
   },
   "dependencies": {
-    "urllib": "0.5.5",
+    "urllib": "3.0.0",
     "jsdom": "*",
     "mongoskin": "*"
   },
